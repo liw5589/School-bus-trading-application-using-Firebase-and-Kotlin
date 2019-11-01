@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5E35B1</color>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="colorAccent">#5E35B1</color>
+    <!--보라색 조합  5E35B1  4527A0  B388FF-->
+    <!-- 진한 Deep Orange 조합E64A19  BF360C FF8A65-->
+    <!-- 연한 Deep Orange 조합 FF7043  F4511E FF3D00 -->
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:id="@+id/linearLayout_dynamicArea"
+              android:padding="5dp"
+>
+
+    <TextView
+
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvType"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="22dp" tools:layout_editor_absoluteY="10dp"
+    />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="87dp"
+            android:layout_height="50dp" android:id="@+id/firstV">
+        <TextView
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="판매날짜"
+
+                android:layout_width="87dp"
+                android:layout_height="25dp" android:id="@+id/textView13"/>
+        <TextView
+
+                android:text="가격"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:gravity="center"
+
+                android:layout_width="87dp"
+                android:layout_height="25dp"
+                android:id="@+id/textView14"/>
+    </LinearLayout>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="match_parent" android:id="@+id/textView9" android:layout_weight="1"
+            android:visibility="gone"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="87dp"
+            android:layout_height="50dp" android:id="@+id/secondV">
+        <TextView
+                android:textSize="13dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="87dp"
+                android:layout_height="25dp" android:id="@+id/tvSellDate"/>
+        <TextView
+                android:textSize="13dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="87dp"
+                android:layout_height="25dp" android:id="@+id/tvPrice"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="87dp"
+            android:layout_height="50dp" android:id="@+id/thirdV">
+        <TextView
+                android:textSize="15dp"
+                android:gravity="center"
+
+                android:text="카카오톡 ID"
+                android:layout_width="87dp"
+                android:layout_height="0dp" android:id="@+id/textView17"/>
+        <TextView
+                android:textSize="15dp"
+                android:gravity="center"
+
+                android:text="작성시간"
+                android:textColor="@android:color/black"
+                android:layout_width="87dp"
+                android:layout_height="50dp" android:id="@+id/textView18"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="87dp"
+            android:layout_height="50dp" android:id="@+id/forthV">
+        <TextView
+                android:textSize="13dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="87dp"
+                android:layout_height="0dp" android:id="@+id/tvTalkID"/>
+        <TextView
+                android:textSize="13dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="87dp"
+                android:layout_height="50dp" android:id="@+id/tvWriteDate"/>
+    </LinearLayout>
+
+</LinearLayout>

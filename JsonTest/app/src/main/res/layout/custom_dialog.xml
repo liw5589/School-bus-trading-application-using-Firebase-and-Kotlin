@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="410dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/dialogType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:text="다이얼로그 예제"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="판매날짜"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView15"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="가격"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView16"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="작성시간"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView20"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="카카오 ID"
+                    android:layout_width="173dp"
+                    android:layout_height="0dp" android:id="@+id/textView19"/>
+        </LinearLayout>
+        <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content" android:id="@+id/tvSELLDATE"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content" android:id="@+id/tvPRICE"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content" android:id="@+id/tvWRITEDATE"/>
+            <TextView
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" android:id="@+id/tvTALKID"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
